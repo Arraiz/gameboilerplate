@@ -10,10 +10,9 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.utils.viewport.Viewport;
 import com.mike.gamename.Common.GameCongif;
 
-/**
- *
- *
- */
+/**Utilidades de debudeo para la camara
+ * Renderizado de los limites de camara y control de camara WASD y estadisticas como FPS
+ * **/
 
 public class CameraDebugUtils {
 
@@ -25,9 +24,6 @@ public class CameraDebugUtils {
     private static final int DOWN_KEY = Input.Keys.S;
     private static final int LEFT_KEY = Input.Keys.A;
     private static final int RIGHT_KEY = Input.Keys.D;
-
-
-
 
 
     public static void RenderBounds(ShapeRenderer renderer, Viewport viewport) {
